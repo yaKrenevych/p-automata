@@ -1,0 +1,38 @@
+2000 words
+
+g = generate_unique_g(seen_g, length=7, max_exp=10)
+
+ average res for n = 7 is  0.8950432098765718
+ average res for n = 8 is  0.8508957475994652
+ average res for n = 9 is  0.8519211248285469
+ average res for n = 10 is 0.8127725956408945
+ average res for n = 11 is 0.8125017527815732 //incorrect
+ average res for n = 11 is 0.8113313519280441 //correct
+
+ fast
+ Average res for n = 11 is 0.8122102575826721
+ Average res for n = 15 is 0.7433013137864722
+ Average res for n = 20 is 0.654777016794531
+ Average res for n = 50 is 0.36084516881928314
+ Average res for n = 100 is 0.14643190987495378
+
+
+10000 words
+
+Average res for n = 20 is 0.6547222198348354
+
+
+2000 words
+
+g = generate_unique_g(seen_g, length=10, max_exp=3)
+
+ average res for n = 7 is  0.8944074074074366
+ average res for n = 8 is  0.8497297668038535
+ average res for n = 9 is  0.8504471879286812
+ average res for n = 10 is 0.8119868160341256
+ average res for n = 11 is 0.8091566072244940
+
+
+
+
+
